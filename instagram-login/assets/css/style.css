@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  background-color: #fafafa;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.phone-img {
+  height: 32rem;
+  width: auto;
+  margin: 4rem 1rem 0 1rem;
+}
+
+.login {
+  width: 24rem;
+  height: 26rem;
+  margin: 5rem 6rem 15rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 3rem;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.input-icons {
+  position: absolute;
+  color: #8e8e8e;
+  margin: 9.75rem 0.5rem;
+}
+
+.mdi-account {
+  margin-top: 7rem;
+}
+
+.mdi-lock {
+  font-size: 17.5px !important;
+}
+
+.login input {
+  margin: 5px 0;
+  padding: 8px 30px;
+  outline: none;
+  color: #8e8e8e;
+  border: 1px solid #8e8e8e;
+  border-radius: 4px;
+}
+
+.signup {
+  width: 24rem;
+  margin: 1.6rem 0 0 -3.1rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 5rem;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.insta-logo {
+  height: 4rem;
+  margin: 20px auto;
+}
+
+.login-btn {
+  padding: 5px 9px;
+  color: #fff;
+  background-color: #0095f6;
+  margin-top: 1rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.login-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.seprate {
+  display: flex;
+  margin: 25px 0;
+}
+
+.line {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  background-color: #dbdbdb;
+  height: 1px;
+  position: relative;
+  top: 0.45em;
+}
+
+.or-text {
+  color: #8e8e8e;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  margin: 0 18px;
+  text-transform: uppercase;
+}
+
+.login-fb {
+  margin: 0 auto;
+  font-size: 15px;
+  text-decoration: none;
+  color: #0095f6;
+}
+
+.mdi-facebook {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.forgot-pass {
+  margin: 1rem auto;
+  font-size: 12px;
+  text-decoration: none;
+  color: #0062f6;
+}
+
+.no-account {
+  font-size: 13px;
+  margin: 5px auto;
+  font-family: "Open Sans";
+}
+
+.signup-btn {
+  color: #0095f6;
+  font-size: 12px;
+  margin: auto;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+
+.get-app {
+  font-size: 12px;
+  font-size: 12px;
+  width: 24rem;
+  margin: 1rem 0 0 -3.1rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 5rem;
+  justify-content: center;
+}
+
+.sources {
+  width: 24rem;
+  margin: 0 0 0 -3.1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sources img {
+  width: 10rem;
+}
+
+@media screen and (max-width: 900px) {
+  .phone-img {
+    display: none;
+  }
+
+  .login {
+    margin-right: 0;
+  }
+}
